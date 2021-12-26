@@ -1,4 +1,4 @@
-package site.jaking.socket.samples1;
+package site.jaking.socket.samples1.echo;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -8,8 +8,8 @@ import java.net.Socket;
  * Create by chenjiacheng on 2021/12/26
  */
 public class EchoServer {
-    private int port = 8000;
-    private ServerSocket serverSocket;
+    private int port = 81;
+    private final ServerSocket serverSocket;
 
     public EchoServer() throws IOException {
         serverSocket = new ServerSocket(port);

@@ -1,4 +1,4 @@
-package site.jaking.socket.samples1;
+package site.jaking.socket.samples1.echo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
